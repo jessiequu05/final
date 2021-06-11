@@ -1,0 +1,215 @@
+.bg image{
+    height: 100%;
+}
+
+.bg>img{
+    width: 100%;
+}
+
+.header{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg{
+    
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    left:0px;
+    z-index: -1; 
+    display: flex;
+}
+
+.menu{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: absolute;
+    margin-left: 8px;
+    margin-right: 8px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+*{
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+
+.leftlogo{
+    position: absolute;
+    width: 25%;
+    height: 65%;
+    top: 5%;
+    left: 1%;
+}
+
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+
+ul{
+    position: absolute;
+    float: right;
+    padding: 0;
+    margin-top:5.5%;
+    margin-left: 35%;
+    
+}
+
+ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0px 10px;
+}
+
+ul li a{
+    position: relative;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8vw;
+}
+
+ul li a::before{
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 100%;
+    background: black;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform .4s linear;
+}
+
+ul li a:hover:before{
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+.login{
+    position: absolute;
+    top: 15%;
+    width: 3%;
+    left: 85%;
+}
+
+.cart{
+    position: absolute;
+    top: 15%;
+    width: 3%;
+    left: 91%;
+}
+
+.section{
+    position: relative;
+}
+.bg1{
+    position: relative;
+    width: 100%;
+    top: -60px;
+}
+
+.bg1>img{
+    width: 100%;
+}
+
+.background{
+    border-radius: 50px 50px 0px 0px;
+    box-shadow: 10px -4px 6px rgba(0,0,0,0.15);
+
+}
+
+.text{
+    position: relative;
+    width: 100%;
+    height: 70%;
+}
+
+.cart-page{
+    position: relative;
+    margin: 80px auto;
+}
+
+.topic1{
+    text-align: center;
+    color: black;
+    font-family:  'Kalam', cursive;
+    margin-top: -68%;
+    font-size: 55px;
+}
+
+
+.small-container.cart-page{
+    left: 26%;
+}
+
+table{
+    align-items: center;
+    width: 50%;
+    background-color: #C6A07F;
+}
+
+th{
+    text-align: left;
+    font-family:  'Poppins', sans-serif;
+    font-size: 1.5vw;
+    color: brown;
+    padding: .5rem;
+    
+}
+
+
+td{
+    padding: .5rem;
+}
+
+h2{
+    margin-left: 50%;
+    color: red;
+}
+
+.ccart{
+    position: absolute;
+    top: 12rem;
+    left: 50%;
+    text-align: center;
+    background-color: #F39730;
+    color:white;
+    font-family:'Poppins', sans-serif ;
+    font-size: 1.6vw;
+    border: 1px solid #707070;
+
+}
+
+.scart{
+    position: absolute;
+    top: 33rem;
+    left: 33%;
+    text-align: center;
+    background-color: #C6A07F;
+    color:white;
+    font-family:'Poppins', sans-serif ;
+    font-size: 1.6vw;
+    border: 1px solid #707070;
+
+}
+
+.ucart{
+    position: absolute;
+    top: 33rem;
+    left: 50%;
+    text-align: center;
+    background-color: #C6A07F;
+    color:white;
+    font-family:'Poppins', sans-serif ;
+    font-size: 1.6vw;
+    border: 1px solid #707070;
+
+}

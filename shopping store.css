@@ -1,0 +1,404 @@
+
+.bg image{
+    height: 100%;
+}
+
+.bg>img{
+    width: 100%;
+}
+
+.header{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg{
+    
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    left:0px;
+    z-index: -1; 
+    display: flex;
+}
+
+.menu{
+    width: 100%;
+
+    display: flex;
+    position: absolute;
+    margin-left: 8px;
+    margin-right: 8px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+*{
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+
+.leftlogo{
+    position: absolute;
+    width: 25%;
+    height: 65%;
+    top: 5%;
+    left: 1%;
+}
+
+.leftlogo {
+    position: absolute;
+    width: 25%;
+    top: 2%;
+    left: 1%;
+}
+
+ul{
+    float: right;
+    padding: 0;
+    margin-top:4.5%;
+    margin-left: 35%;
+    
+}
+
+ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0px 10px;
+}
+
+ul li a{
+    position: relative;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8vw;
+}
+
+ul li a::before{
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 100%;
+    background: black;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform .4s linear;
+}
+
+ul li a:hover:before{
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+
+.login{
+    position: absolute;
+    top: 45%;
+    width: 3%;
+    left: 85%;
+}
+
+.cart{
+    position: absolute;
+    top: 45%;
+    width: 3%;
+    left: 91%;
+}
+
+.section{
+    position: relative;
+}
+.bg1{
+    position: relative;
+    width: 100%;
+    top: -60px;
+}
+
+.bg1>img{
+    width: 100%;
+}
+
+.background{
+    border-radius: 50px 50px 0px 0px;
+    box-shadow: 10px -4px 6px rgba(0,0,0,0.15);
+
+}
+
+.text{
+    position: relative;
+    width: 100%;
+    height: 70%;
+}
+
+.topic1{
+    text-align: center;
+    color: black;
+    font-family:  'Kalam', cursive;
+    margin-top: -68%;
+    font-size: 55px;
+}
+
+.left{
+    position: absolute;
+    width: 20%;
+    left: 2%;
+    font-family: 'Kalam', cursive;
+}
+
+.idown{
+    position: absolute;
+    left: 5%;
+    height: 15%;
+    width: 2%;
+}
+
+.down{
+    height: 100%;
+    width: 100%;
+}
+
+.category{
+    position: absolute;
+    left: 10%;
+    height: 16%;
+    
+    margin: 0;
+    font-family: 'Kalam', cursive;
+    font-size: 30px;
+}
+
+.left{
+    position: absolute;
+    top: 15rem;
+    height: 33rem;
+    width: 13%;
+    left: 5%;
+    border: 1px solid#707070;
+}
+
+.left ull{
+    position: absolute;
+    flex-wrap: nowrap;
+}
+
+.left ull lii{
+    display: inline-block;
+    margin: 20px 10px;
+    font-size: 25px;
+}
+
+
+
+
+.container{
+    position: absolute;
+    width: 20%;
+    
+    left: 75%;
+    
+}
+
+.searchbar{
+    border: 2px solid #8A8989;
+    display: flex;
+    border-radius: 50px;
+    background: #faf5f5;
+
+}
+
+.searchbar input{
+    text-align: center;
+    flex-grow: 1;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.0rem;
+    background: #faf5f5;
+    border: 0;
+    border-radius: 50px;
+
+}
+
+.submit{
+    --size:60px;
+    border: 0;
+    background: transparent;
+    background: #F0ECEC;
+    border-radius: 50px;
+}
+
+.search{
+    width: 20%;
+    height: 50%;
+    
+}
+
+img{
+    width: 100%;
+}
+
+.mid{
+    position: absolute;
+    top: 15rem;
+    width: 45rem;
+    height: 33rem;
+    left: 25%;
+}
+
+.content{
+    position: absolute;
+    width: 10rem;
+    height: 15rem;
+    box-shadow: 3px 3px 6px rgba(0,0,0,0.15);
+    background-color: white;
+    margin-right: 5%;
+}
+
+.overlay{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.a_t_c{
+    width: 6rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(226,203,179,0.6);
+    color: white;
+    font-family: 'Poppins';
+    border-radius: 10px;
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.15);
+}
+
+.a_t_c:hover{
+    color: black;
+    background-color: white;
+    transition: all ease 0.3s;
+}
+
+
+
+.topi{
+    position: relative;
+    width: 100%;
+    height: 10rem;
+}
+
+.product1{
+    width: 100%;
+    height: 100%;
+}
+
+.bottomt{
+    width: 100%;
+    height: 30%;
+    font-family: 'Poppins', sans-serif;
+    font-size: .8vw;
+    background-color: white;
+    padding: 0.2rem;
+}
+
+
+.content1{
+    position: absolute;
+    width: 10rem;
+    height: 15rem;
+    box-shadow: 3px 3px 6px rgba(0,0,0,0.15);
+    background-color: white;
+    margin-right: 10%;
+    left: 15rem;
+}
+
+
+.content2{
+    position: absolute;
+    width: 10rem;
+    height: 15rem;
+    box-shadow: 3px 3px 6px rgba(0,0,0,0.15);
+    background-color: white;
+    margin-right: 10%;
+    left: 30rem;
+}
+
+.content3{
+    position: absolute;
+    width: 10rem;
+    height: 15rem;
+    box-shadow: 3px 3px 6px rgba(0,0,0,0.15);
+    background-color: white;
+    margin-right: 10%;
+    left: 45rem;
+}
+
+.content4{
+    position: absolute;
+    width: 10rem;
+    height: 15rem;
+    box-shadow: 3px 3px 6px rgba(0,0,0,0.15);
+    background-color: white;
+    margin-right: 10%;
+    top: 18rem;
+}
+
+.content5{
+    position: absolute;
+    width: 10rem;
+    height: 15rem;
+    box-shadow: 3px 3px 6px rgba(0,0,0,0.15);
+    background-color: white;
+    margin-right: 10%;
+    top: 18rem;
+    left: 15rem;
+}
+
+.content6{
+    position: absolute;
+    width: 10rem;
+    height: 15rem;
+    box-shadow: 3px 3px 6px rgba(0,0,0,0.15);
+    background-color: white;
+    margin-right: 10%;
+    top: 18rem;
+    left: 30rem;
+}
+
+.content7{
+    position: absolute;
+    width: 10rem;
+    height: 15rem;
+    box-shadow: 3px 3px 6px rgba(0,0,0,0.15);
+    background-color: white;
+    margin-right: 10%;
+    top: 18rem;
+    left: 45rem;
+}
+    
+
+.pages{
+    position: absolute;
+    left:50%;
+    width: 30%;
+    top: 50rem;
+}
+
+input[type="number"]{
+    width: 2.5rem;
+    padding: 0;
+    margin-right: .5rem;
+}
+
+
+
+
